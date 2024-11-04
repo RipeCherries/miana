@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export function useSearchParams(initialId, initialTitle) {
+export function useSearchParams(initialId: number, initialTitle: string) {
   const [id, setId] = useState<number>(initialId);
   const [title, setTitle] = useState<string>(initialTitle);
   const [loading, setLoading] = useState<boolean>(true);
