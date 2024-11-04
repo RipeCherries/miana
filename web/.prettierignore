@@ -1,0 +1,8 @@
+# Ignoring *.md files
+**/*.md
+
+# Ignoring *.json files
+**/*.json
+
+# Ignoring .* files
+**/.*

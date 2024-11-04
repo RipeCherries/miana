@@ -1,0 +1,53 @@
+.player {
+    width: 100%;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+}
+
+.content iframe {
+    all: unset;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.title {
+    padding: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sources {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    padding: 16px;
+}
+
+.source {
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 4px 16px;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.source.selected {
+    background: #FFFFFF;
+    color: #000000;
+}
