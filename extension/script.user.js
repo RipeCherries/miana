@@ -5,8 +5,8 @@
 // @description     A plugin that turns Kinopoisk into a free online movie theater
 // @version         2.0.0
 // @icon            https://github.com/RipeCherries/miana/raw/main/assets/icon.png
-// @updateURL       https://github.com/RipeCherries/miana/raw/main/extension/script.js
-// @downloadURL     https://github.com/RipeCherries/miana/raw/main/extension/script.js
+// @updateURL       https://github.com/RipeCherries/miana/raw/main/extension/script.user.js
+// @downloadURL     https://github.com/RipeCherries/miana/raw/main/extension/script.user.js
 // @run-at          document-idle
 // @match           *://www.kinopoisk.ru/*
 // ==/UserScript==
