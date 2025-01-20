@@ -20,7 +20,7 @@
 
 1. Установите [Tampermonkey](https://www.tampermonkey.net/);
 2. Включите [режим разработчика в вашем браузере](https://www.tampermonkey.net/faq.php?locale=ru#Q209);
-3. Установите [скрипт](https://github.com/RipeCherries/miana/raw/main/extension/script.js).
+3. Установите [скрипт](https://github.com/RipeCherries/miana/raw/main/extension/script.user.js).
 
 ## 🍿 Отказ от ответственности
 
